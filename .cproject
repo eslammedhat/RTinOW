@@ -55,6 +55,12 @@
                                 								
                                 <option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.option.debugging.level.1559183209" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.181806098" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/inc&quot;"/>
+                                    								
+                                </option>
+                                								
                                 <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.22120171" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                                 							
                             </tool>
@@ -76,6 +82,8 @@
                             <tool id="cdt.managedbuild.tool.gnu.cross.archiver.1338975114" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.cross.assembler.1399026902" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="gnu.both.asm.option.include.paths.1244350395" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.assembler.input.149877998" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
                                 							
@@ -240,5 +248,7 @@
     <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
     	
     <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="refreshScope"/>
     
 </cproject>
