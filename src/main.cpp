@@ -12,7 +12,8 @@
 #include "CreatingImageFile.h"
 
 int main() {
-	return creatingImageFile();
+	//return creatingImageFile();
+	return creatingImageFile2();
 }
 
 

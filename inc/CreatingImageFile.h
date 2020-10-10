@@ -10,6 +10,6 @@
 
 
 int creatingImageFile();
-
+int creatingImageFile2();
 
 #endif /* INC_CREATINGIMAGEFILE_H_ */
