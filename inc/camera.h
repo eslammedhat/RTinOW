@@ -21,6 +21,10 @@ class camera {
             return ray(origin, lower_left_corner + u*horizontal + v*vertical - origin);
         }
 
+        void set_origin(const vec3& origin){
+        	this->origin = origin;
+        }
+
     private:
         point3 origin;
         point3 lower_left_corner;

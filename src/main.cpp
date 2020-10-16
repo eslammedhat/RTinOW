@@ -59,6 +59,7 @@ int main() {
     // Camera
 
     camera cam;
+//    cam.set_origin(vec3(1.0, 0.0, 0.0));
 
     // Render
 
