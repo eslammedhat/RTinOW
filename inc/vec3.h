@@ -15,7 +15,6 @@
 #include <iostream>
 
 
-
 class vec3{
 	public:
 		vec3(): e{0, 0, 0} {}
@@ -138,6 +137,10 @@ vec3 random_unit_vector() {
     auto z = random_double(-1, 1);
     auto r = sqrt(1 - z*z);
     return vec3(r*cos(a), r*sin(a), z);
+}
+
+vec3 reflect(const vec3& v, const vec3& n) {
+    return v - 2*dot(v,n)*n;
 }
 
 #endif /* INC_VEC3_H_ */
